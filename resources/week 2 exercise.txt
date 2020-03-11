@@ -1,0 +1,44 @@
+Faceti un pachet nou : week.two
+4 clase : 
+	VariabilePrimitive
+	VariablieObiecte
+	Operatori
+	VariabileCasting
+
+
+VariabilePrimitive
+	* creati 8 variabile : byte, short, int, long, float, double, boolean, char si sa le valorizati
+		* type variable = value;
+	* sa faceti print la cele 8 variabile.	
+	EX:  int valInt = 5;
+		 System.out.println("valInt = " + valInt );
+		
+VariablieObiecte
+	* creati 5 variabile : Integer, Long, Double,Boolean si String si sa le valorizati
+	* sa faceti print la cele 5 variabile.	
+	EX : Integer valInteger = 5;
+		 System.out.println("valInteger = " + valInteger );
+	
+Operatori
+	* creati cateva variabile si sa folositi cele 2 tipuri de operatori : Arithmetic si Assignment
+	* sa faceti print la variabilele noi create .	
+	EX:  int valInt1 = 5, valInt2 = 6;
+		 int valIntSum = valInt1 + valInt2;
+		 System.out.println("valIntSum = " + valIntSum);
+	
+Ca ideea, operatorii Comparison si Logical vor fi folositi in saptamana 3.
+
+VariabileCasting
+	* creati 6 variabile : byte, short, int, long, float, double si sa le valorizati
+	si sa faceti 2 exemple cu Widening Casting si Narrowing Casting si print la noile variabile.
+	EX:  int valInt = 9;
+		 double valDoubleNarrowed = valInt;
+		 System.out.println("valDoubleNarrowed = " + valDoubleNarrowed);
+		 
+Va rog sa incercati sa dati numele la variabile, dar si clase daca doriti sa lucrati in plus, 
+in asa fel incat sa exprime scopul pentru care a fost creat sau macar sa indice ce este.	
+EX : int numberOfSeconds = 60; //in cazul in care este folosit sa indicam secundele dintr-un minut
+	 int valInt = 5; //ar fi ca o prescurtare la "valoarea variabila int"
+	 
+	 int a = 1 // incercati sa evitati... poate nu are prea multa logica acum la inceput sa faceti asta
+			   // dar e bine sa va creati un obicei sanatos de a da nume la variabile,metode si clase.

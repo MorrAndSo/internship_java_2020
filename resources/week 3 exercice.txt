@@ -1,0 +1,36 @@
+Faceti un pachet nou : week.three
+4 clase : 	
+	IfAndSwitch
+	Loops
+	ArrayExercice
+	LogicalOperators
+
+
+IfAndSwitch
+	* Creati un exemplu de if else in care sa verificati o conditie.
+	* Transformati exemplu "if else" de mai sus intr-un operator ternar (Ternary Operator).
+	* Sub exemplul operatorului ternar, mai adaugati inca o verificare if else la primul "if else", 
+		in asa fel incat sa fie 3 posibile rezultate.
+	* Creati un Switch , in care sa aveti minim 3 "case" si un "default", iar expresia verificata sa fie de tipul String.
+
+Loops
+	* Creati un exemplu de "while" loop.
+	* Creati un nou "while" loop, folosind conditia "if" utilizati cuvintele cheie "continue" si "break" in interiorul while-ului			
+	* Refolositi primul "while", modificati conditia in asa fel incat sa fie negativa, dar totusi sa ruleze macar o data.
+	* Transcrieti "while-ul" initial intr-un "for" loop, care sa intoarca aceleasi valori.	
+	
+ArrayExercice
+	* Creati un array de String-uri, care sa aibe 5 elemente.
+	* Modificati elementul 5 din array.
+	* Parcurgeti array-ul folosind un for si un for-each, iar acolo unde se poate folositi lenght pe array (array.lenght)
+	* Afisati folosind un loop toate elementele din array, mai putin elementul de la mijloc
+		fara sa specificati in clar in verificare care este pozitia elementului, trebuie gasita dinamic.
+	* Creati un array multidimensional de int-uri si sa-l parcurgeti (am omis partea asta, dar este la Java Arrays pe w3schools)
+	
+	
+LogicalOperators	
+	* Folositi un "Logical and" intr-un while loop
+	* Folositi un "Logical or" intr-un for loop
+	* Folositi un "Logical not" impreuna cu "Logical and" si "Logical or" in 2 for loops
+	
+	In principiu, clasa LogicalOperators este optionala, atat timp cat folositi operatorii logici in celelalte clase.

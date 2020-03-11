@@ -1,0 +1,26 @@
+Faceti un pachet nou : week.five
+
+Creati o clasa in care sa aveti cateva metode non-statice care sa :
+ * calculeze perimetrul unui patrat
+ * calculeze perimetrul unui cerc
+ * sa verifice intre 3 numere care este cel mai mare si sa-l returneze
+ * sa verifice daca un array are elemente si sa intoarca adevarat sau fals.
+ * sa verifice daca un array are numar par de elemente
+ * sa verifice daca un array are numar impar de elemente
+ * sa returneze mijlocul unui array, si tipul returnat sa fie String
+ Pentru metodele de mai sus, pentru care puteti, sa creati si o metoda overloaded, 
+ca exemplu, pentru perimetru unui patrat, puteti sa faceti o metoda cu parametri int si alta cu double.
+
+Creati o a doua clasa, in care sa creati obiectul primei clase si sa folositi metodele create.
+
+Creati o clasa abstracta Fruct, in care sa aveti 2 metode abstracte :
+	* getCuloare();
+	* getGust();
+	Hotarati voi daca sa aibe tip returnat sau nu.	
+Creati 3 clase prin care sa extindeti clasa Fruct si sa implementati metodele abstracte.
+Creati o noua clasa, in care sa creati cele 3 obiecte ale claselor de tip Fruct, si apelati metodele.
+
+Creati o clasa concreta, care sa aibe 4 variabile. 
+Pe clasa sa implementati encapsularea si sa aveti 2 implementari de constructor.
+Intr-o alta clasa, sa creati 2 obiecte ale clasei mau sus create, folosint cei 2 constructori diferiti, 
+si sa afisati folosind System.out.println(); detaliile obiectelor noi create. 
