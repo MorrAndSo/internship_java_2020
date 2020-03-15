@@ -7,13 +7,32 @@
 # BlueJ files
 *.ctxt
 
-# IntelliJ files
+##############################
+## IntelliJ
+##############################
 out/
 .idea/
 .idea_modules/
 *.iml
 *.ipr
 *.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
