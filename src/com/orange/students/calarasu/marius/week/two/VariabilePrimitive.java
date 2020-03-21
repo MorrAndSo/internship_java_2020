@@ -21,7 +21,7 @@ public class VariabilePrimitive {
         boolean valBoolean = true;
         char valChar = 'c';
 
-        System.out.println("valByte = " + valByte);
+        System.out.println("valByte = " + valByte );
         System.out.println("valShort = " + valShort);
         System.out.println("valInt = " + valInt);
         System.out.println("valLong = " + valLong);
@@ -31,4 +31,5 @@ public class VariabilePrimitive {
         System.out.println("valChar = " + valChar);
 
     }
+
 }
