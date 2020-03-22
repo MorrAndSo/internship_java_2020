@@ -17,21 +17,20 @@ acum pentru a aduce ultimele modificari, va rog sa faceti
 *Eclipse* sau *IntelliJ*, click dreapta pe proiect, *Git > Repository > Pull*
 
 
-
 ##Core Interfaces in Collections
-              Iterable
-                 |
-             Collection                    Map
-           /     /      \                /      \
-          /     /        \              /        \
-        Set    List    Queue       SortedMap    HashMap
-         |                              |          |
-         |                              |          |
-      SortedSet                      TreeMap   LinkedHashMap
+                  Iterable
+                     |
+                 Collection                    Map
+               /     /      \                /      \
+              /     /        \              /        \
+            Set    List    Queue       SortedMap    HashMap
+             |                              |          |
+             |                              |          |
+          SortedSet                      TreeMap   LinkedHashMap
 
 ######Note that this diagram only shows core interfaces.
 
-##Iterable Interface
+###Iterable Interface
 The Iterable interface is the root interface for all the collection classes. The Collection interface extends
 the Iterable interface and therefore all the subclasses of Collection interface also implement the Iterable interface.
 It contains only one abstract method. i.e.,
@@ -106,9 +105,29 @@ The map is sorted according to the natural ordering of its keys, or by a Compara
 depending on which constructor is used. This proves to be an efficient way of sorting and storing the key-value pairs.
 
 ####Comparator
+Java Comparator interface is used to order the objects of a user-defined class.
+This interface is found in java.util package and contains 2 methods compare(Object obj1,Object obj2) and equals(Object element).
+It provides multiple sorting sequences, i.e., you can sort the elements on the basis of any data member, 
+for example, rollno, name, age or anything else.
+
 Both **TreeSet** and **TreeMap** store elements in a sorted order.
 However, it is the comparator that defines precisely what sorted order means.
 
 More details :
  
     https://www.javatpoint.com/Comparator-interface-in-collection-framework
+
+
+####Comparable
+Java Comparable interface is used to order the objects of the user-defined class. 
+This interface is found in java.lang package and contains only one method named compareTo(Object). It provides a single sorting sequence only, i.e., you can sort the elements on the basis of single data member only. For example, it may be rollno, name, age or anything else. 
+
+Collections class provides static methods for sorting the elements of collections. 
+If collection elements are of Set or Map, we can use **TreeSet** or **TreeMap**. 
+However, we cannot sort the elements of List. 
+Collections class provides methods for sorting the elements of List type elements.
+
+More details : 
+    
+    https://www.javatpoint.com/Comparable-interface-in-collection-framework
+
