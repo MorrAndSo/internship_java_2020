@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 import static com.orange.students.calarasu.marius.week.five.AnimalMethods.*;
 
-public class Animals {
+public class AnimalsMainClass {
     public static void main(String[] args) {
         ArrayList<Animal> animals = new ArrayList<Animal>();
         Porc porkyPig = new Porc();
@@ -55,7 +55,7 @@ public class Animals {
 
         System.out.println("----- ArrayList ------ ");
 
-        ArrayList arrayList = AnimalsList.getAnimal();
-        AnimalsList.iterateWithForLoop(arrayList);
+        ArrayList arrayList = AnimalList.getAnimal();
+        AnimalList.iterateWithForLoop(arrayList);
     }
 }
