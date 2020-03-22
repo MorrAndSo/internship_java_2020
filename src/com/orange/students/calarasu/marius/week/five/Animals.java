@@ -21,21 +21,41 @@ public class Animals {
         animals.add(hawk);
         animals.add(croco);
 
-
+        System.out.println("---- Print Animals using 'for loop' ----");
         getAnimals(animals);
-        isInstanceOfAnimal(animals);
-        isDomesticOrSalbatic(animals);
-        modDeplasare(animals);
+        System.out.println();
 
+        System.out.println("---- Verify if the object is  a instance of 'Animal' ---- " + "\n");
+        isInstanceOfAnimal(animals);
+        System.out.println();
+
+        System.out.println("---- Verify if the object is  a instance of 'Domnestic' ---- " + "\n");
+        isDomesticOrSalbatic(animals);
+        System.out.println();
+
+        System.out.println("---- Verify if the object is  a instance of 'Terestru, Acvatic or Aerian' ----" + "\n");
+        modDeplasare(animals);
+        System.out.println();
+
+
+
+        // Setting names to Animal objects
         chick.setNume("Twity");
         hawk.setNume("Hawk");
         croco.setNume("Croco");
         porkyPig.setNume("Porky");
-        System.out.println(porkyPig.getNume());
+
+        System.out.println("---- Calling somme Methods of Pig object ----" + "\n");
         porkyPig.mananca();
         porkyPig.sunet();
         porkyPig.utilitate();
         porkyPig.merge();
 
+        System.out.println();
+
+        System.out.println("----- ArrayList ------ ");
+
+        ArrayList arrayList = AnimalsList.getAnimal();
+        AnimalsList.iterateWithForLoop(arrayList);
     }
 }
