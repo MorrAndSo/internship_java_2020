@@ -65,8 +65,10 @@ public class CollectionsMainClass {
     }
 
     private static void iterateWithIterator(Map map) {
-        System.out.println("--------Map  - for-each-------");
-        for (Object key : map.keySet()) {
+        System.out.println("--------Map  - iterator-------");
+        Iterator itr = map.keySet().iterator();
+        while (itr.hasNext()) {
+            Object key = itr.next();
             System.out.print(key + " : " + map.get(key) + " , ");
         }
         System.out.println();
@@ -80,11 +82,6 @@ public class CollectionsMainClass {
         System.out.println();
     }
 
-    /*
-**Map.Entry Interface
-Entry is the subinterface of Map. So we will be accessed it by Map.Entry name.
-It returns a collection-view of the map, whose elements are of this class. It provides methods to get key and value.
- */
     private static void iterateEntrySetWithForLoop(Map map) {
         System.out.println("--------Map - EntrySet - for-each-------");
         for (Object entrySet : map.entrySet()) {

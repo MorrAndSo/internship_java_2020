@@ -123,6 +123,14 @@ The TreeMap in Java is used to implement Map interface and NavigableMap along wi
 The map is sorted according to the natural ordering of its keys, or by a Comparator provided at map creation time,
 depending on which constructor is used. This proves to be an efficient way of sorting and storing the key-value pairs.
 
+
+
+#### Map.Entry Interface
+Entry is the subinterface of Map. So we will be accessed it by Map.Entry name.
+It returns a collection-view of the map, whose elements are of this class. It provides methods to get key and value.
+
+
+
 #### Comparator
 
 Java Comparator interface is used to order the objects of a user-defined class.
