@@ -1,0 +1,59 @@
+1)	Se da array-ul : 5,9,4,8,3,1,0,7,2
+Orodnati crescator si descrestator si afisati rezultatul.
+indicatii : folositi array si loops
+
+
+2)	Se da array-ul String-uri : "a", "b", "c", "d" , "f"
+Creati un nou array in care sa adaugati majusculele literelor din array.
+indicatii : folositi for loop si metoda din obiectul String 
+
+
+3)	Se da array-ul String-uri : "F", "W", "A", "C", "B"
+Creati un nou array in care sa ordonati minusculele literelor din array.
+indicatii : folositi loops si metoda din obiectul String.
+
+4)	Se da array-ul : 1,8,5,3,4,9,5,3
+Afisati pe rand fiecare numar, mai putin primul si al 3lea numar impar din array
+indicatii : folositi loops si operatorul %
+
+5)	Se da array-ul : 10,12,8,6,9,4,5,11
+Afisati numelere pare.
+idnciatii : folositi loops si operatorul %
+
+6)	Scrieti un program in care sa faceti conversia de la mile la kilometri,
+si apoi afisati ca mai jos.
+ mile 	kilometri
+ 10.00 16.09
+ 20.00 32.19
+ 30.00 48.28
+ 40.00 64.37
+ 50.00 80.47
+ 60.00 96.56
+ 70.00 112.65
+indicatii : folositi array, for loop si metoda de transformare
+ 
+7)	Se da array-ul de String-uri : "ab", "cc", "gg", "a" , "kg", "ert"
+Afisati doar elementele cu 2 caractere.
+indicatii : folositi loop si metoda din obiectul String
+
+8)	Se da int x = 7;
+Afisati valoarea exacta pentru urmatoarea operatie :
+[(x / 2 ) * 5.1 ] + 1.23;
+indicatii : pentru calcule cu zecimale se foloseste long si float, 
+int pierde din exactitate cand este folosit in operatii matematice ( / si * )
+
+9)	Se dau variabilele : 
+int myInt = 5511;
+long myLong = 1185;
+boolean myBool = true;
+char myChar = 'a';
+byte myByte = 123;
+
+Executati pentru fiecare variabila in functie de cum se paote : Widening ,Narrowing si Boxing
+indicatii : nu toate variabilele vor suportatoate tipuri de operatii.
+
+10)  Se da array-ul de String-uri : 4,5,7,2,3,1,6,3,6,1,2,5,3
+Afisati folosind un switch, pentru fiecare numar din array ziua saptamanii corespunzatoare 
+indicatii : loop pentru parcurgerea array-ului, switch apelat pt fiecare valoare in parte,
+ex : 1 va afisa luni, 7 duminica.
+

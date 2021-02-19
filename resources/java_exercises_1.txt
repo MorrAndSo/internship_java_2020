@@ -1,0 +1,37 @@
+
+Variables 
+	* creati 5 variabile primitive
+	* creati 5 variabile pe care sa faceti "boxing" folosind primele 5 varibile
+	* afisati valorile celor 10 varibile, iar pentru obiecte folositi metoda mostenita (toString())	
+	
+VariabileCasting
+	* creati 5 variabile si sa le valorizati	
+	* creati cateva variabile noi si sa faceti Widening Casting si Narrowing Casting pe cele 5 variabile 
+	apoi sa afisati rezultatele
+	
+MathExercises 
+	* creati variabile de diferite tipuri si executati operatii matematice folosinduva de operatorii ( *, /, %)
+	* afisati rezultatul si fiti atenti la tipul varibilelor si la exactitatea rezultatului
+
+LoopsAndIfElseExercices
+	* Creati un array de String-uri, care sa aibe 5 elemente.
+	* Creati un "while" loop si for loop care sa parcurga elementele din array.
+	* Folositi un for-each loop pentru a parcurge elementele din array.	
+	* Creati un nou "while" loop, folosind conditia "if" utilizati cuvintele cheie "continue" si "break" in interiorul while-ului
+	
+	* Afisati folosind un loop toate elementele din array, mai putin elementul de la mijloc
+		fara sa specificati in clar in verificare care este pozitia elementului, trebuie gasita dinamic.		
+	
+	* Creati un exemplu de if else in care sa verificati o conditie.
+	* Transformati exemplu "if else" de mai sus intr-un operator ternar (Ternary Operator).
+		
+		 
+Va rog sa incercati sa dati numele la variabile, dar si clase daca doriti sa lucrati in plus, 
+in asa fel incat sa exprime scopul pentru care a fost creat sau macar sa indice ce este.	
+EX : int numberOfSeconds = 60; //in cazul in care este folosit sa indicam secundele dintr-un minut
+	 int valInt = 5; //ar fi ca o prescurtare la "valoarea variabila int"
+	 
+	 int a = 1 // incercati sa evitati... poate nu are prea multa logica acum la inceput sa faceti asta
+			   // dar e bine sa va creati un obicei sanatos de a da nume la variabile,metode si clase.	
+	
+	
