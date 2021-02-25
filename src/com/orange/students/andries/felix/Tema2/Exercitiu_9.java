@@ -25,16 +25,20 @@ indicatii : nu toate variabilele vor suportatoate tipuri de operatii.
 
 
 
+
         float myFloat = myInt;
         int myInt2 = (int)myLong;
         int myInt3 = myChar;
         char myChar2 = (char)myByte;
 
 
+
+
         System.out.println(myFloat);
         System.out.println(myInt2);
         System.out.println(myInt3);
         System.out.println(myChar2);
+
 
         // De continuat
     }
