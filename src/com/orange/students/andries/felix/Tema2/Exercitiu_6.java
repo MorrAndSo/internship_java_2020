@@ -24,7 +24,7 @@ double[] myMiles = {
 
 for (int i = 0; i  < myMiles.length; i++) {
 
-    System.out.print("  " + mphToKm(myMiles[(i)]));
+    System.out.print("  " + mphToKm(myMiles[(i)]) + " km");
 }
 
 
