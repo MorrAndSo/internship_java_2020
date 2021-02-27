@@ -1,0 +1,24 @@
+Creati o clasa .
+
+1)  Creati o clasa care sa contina 3 variabile de tipuri diferite si aplicati conceptul de encapsulare.
+    Creati o clasa MainExercisesThreeOne in care sa creati un obiect al clasei mai sus create si valorizati cele 3 variabile,
+apoi returnati valorire atribuite mai devreme.
+
+2)  Creati o clasa care sa contina 3 variabile, din care 2 finale, una fara valoare initiala.
+    Creati o clasa MainExercisesThreeTwo in care sa creati un obiect al clasei de mai sus
+si folosind metode "get" sa returnati valorile variabilelor, fara sa fie nevoie de metode "set" pe variabile.
+
+3)  Creati o clasa in care sa faceti override si overload la metoda toString() din Object.
+    Creati o clasa MainExercisesThreeThree in care sa creati un obiect all clasei de mai sus
+si apelati noile metode toString create, ata cea overrided cat si 2 versiuni de overloaded.
+
+4)  Creati o clasa in care sa aveti 2 metode si o variabila.
+    Creati o a doua clasa care sa mosteneasca pe prima si care sa modifice comportamentul unei metode.
+    Creati o clasa MainExercisesThreeFour in care sa verificati ca a fost modificat cu succes comportamentul metodei.
+
+5)  Creati o clasa in care sa aveti cel putin o metoda abstracta si una non-abstracta si una sau mai multe clase care sa o extinda.
+    Creati o clasa MainExercisesThreeFive in care sa creati sa folositi clasele de mai sus, sa creati atat obiecte copil,
+dar si un obiect parinte pe care sa-l implementati la nivel de executie a metodei.
+
+6)  Creati o interfata care sa contina 2 metode si 2 variabile si una sau mai multe clase care sa o implementeze.
+    Creati o clasa MainExercisesThreeSix care sa apelati cele 2 variabile si sa apelati prin copii cele 2 metode ale interfetei.
