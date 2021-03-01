@@ -1,0 +1,59 @@
+Creati programele prin care sa introduceti de la tastatura valori, dupa cum urmeaza:
+
+1)
+"Introduceti de la tastatura o lista de numere separate prin virgula"
+
+Dupa ce a fost introdus de la tastatura lista de numere afisati meniul :
+"
+    1.intoarceti cel mai mare numar.
+    2.intoarceti cel mai mic numar
+    3.intoarceti lista sortata crescator
+    4.intoarceti lista sortata descrescator
+"
+
+Dupa ce o optiune a fost aleasa, sa se returneze valoarea asteptata.
+
+EX:
+"Introduceti de la tastatura o lista de numere separate prin virgula"
+1,5,9,7,8,3,5,1,6
+
+    1. gaseste cel mai mare numar.
+    2. gaseste cel mai mic numar
+    3. sortata crescator
+    4. sortata descrescator
+
+2
+"1"
+    SAU
+4
+"9,8,7,6,5,5,3,1,1"
+
+Hint : folositi metoda "split()" din String.
+
+
+2)
+"Introduceti de la tastatura o lista de cuvinte separate prin virgula"
+Dupa ce a fost introdus de la tastatura lista de cuvinte afisati meniul :
+"
+    1. cel mai scurt cuvant
+    2. cel mai lung cuvant
+    3. cuvintele de pe pozitia impare lowercase , cele pare UPPERCASE
+    4. afiseaza cuvintele cu numar par de litere
+    5. afiseaza cuvintele cu numar impar de litere
+"
+
+EX:
+"Introduceti de la tastatura o lista de cuvinte separate prin virgula"
+salut,holla,ciao,hi,hello
+
+    1. cel mai scurt cuvant
+    2. cel mai lung cuvant
+    3. cuvintele de pe pozitia impare lowercase , cele pare UPPERCASE
+    4. afiseaza cuvintele cu numar par de litere
+    5. afiseaza cuvintele cu numar impar de litere
+
+1
+"hi"
+    SAU
+3
+"salut,HOLLA,ciao,HI,hello"
