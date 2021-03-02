@@ -2,7 +2,7 @@ package com.orange.students.calarasu.marius.exercisesWhitScanner.exercise02;
 
 public class Menu {
 
-    protected static void displayMenu(){
+    protected static void displayMenu() {
 
         System.out.println("Va rugam alegeti optiunea dorita: ");
         System.out.println("1. Afiseaza cel mai scurt cuvant");

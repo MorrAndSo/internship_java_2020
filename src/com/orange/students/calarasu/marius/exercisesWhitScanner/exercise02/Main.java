@@ -1,9 +1,6 @@
 package com.orange.students.calarasu.marius.exercisesWhitScanner.exercise02;
 
-import com.orange.students.calarasu.marius.exercisesWhitScanner.exercise01.UtilClassEx01;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -39,7 +36,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String sentence = scanner.next();
         ArrayList<String> stringList = UtilClassEx02.returnStringList(sentence);
-        System.out.println(stringList);
         Menu.displayMenu();
         int choice = scanner.nextInt();
 
